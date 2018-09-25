@@ -20,7 +20,15 @@
     <title>Hito_1</title>
 </head>
 <body style="background: url(background.gif); background-size:cover;">
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script>
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+
     <nav class="nav-wraper black">
         <div class="container">
             <ul >
@@ -32,7 +40,10 @@
                 </li>
                 <li>
                     <a href="#" class=" black hoverable ">adorno</a>
-                </li> 
+                </li>
+                <li>
+                    <i class="fa fa-twitter" style="font-size:14px">raular4322</i>
+                </li>
             </ul>
         </div>
     </nav>
@@ -41,7 +52,7 @@
 
     <div class="container">
         <div class="row">
-            <div class="col s6">
+            <div class="col s0 m6">
                 <div class="card">
                     <div class="card-image">
                         <img src="foto-min2.JPG" alt="">
@@ -56,12 +67,30 @@
                     </div>
                 </div>
             </div>
+            <div class="col s0 m6">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="foto-min2.JPG" alt="">
+                        </div>
+                        <div class="card-content">
+                            <h5> Hola, <br/>Me llamo Raúl, me gustan los videojuegos lo suficiente 
+                            como para querer dedicarme a ello (pista: con la de problemas que hay dentro 
+                            de la industria eso es mucho) y mi sueño es dejar una marca en la historia del medio.</h5>
+                        </div>
+                        <div class="card-action">
+                            <a href="#"><h5>Portfolio</h5></a>
+                        </div>
+                    </div>
+                </div>
         </div>
     </div>
 
     <footer class="page-footer black">
         <div class="container">
             <div class="row">
+                <form action="topFunction()">
+                    <button onclick="topFunction()" id="boton" title="Go to top">Sube</button>
+                </form>
                 <h6>Aqui iria el copyright o algo así, pero no es el caso</h6>
             </div>
         </div>       
