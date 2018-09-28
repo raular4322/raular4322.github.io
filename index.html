@@ -1,12 +1,5 @@
 <html lang="en">
-    <style>
-    .box1{
-        height: 50;
-    }
-    .box2{
-        height: 1000;
-    }
-    </style>
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,17 +10,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="js/scripts.js"></script>
     <title>Hito_2</title>
+    <link href="css/style.css" rel="stylesheet">
 </head>
-<body style="background: url(background.gif); background-size:cover;">
+<body>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-    <script>
-        function topFunction() {
-            document.body.scrollTop = 0;
-            document.documentElement.scrollTop = 0;
-        }
-    </script>
 
     <nav class="nav-wraper black">
         <div class="container">
@@ -46,9 +34,9 @@
                 </li>
                 <li>
                     <div class="container">
-                        <div style="position: absolute; z-index: 4; right: 52px;">
+                        <div class="busqueda">
                             <form action=""> <!--/action_page.php-->
-                                <input type="search" name="q" placeholder="Search" style="background-color: #ffffff;" >
+                                <input type="search" name="q" placeholder="Search" id="busqueda-color" >
                             </form>
                         </div>
                     </div>

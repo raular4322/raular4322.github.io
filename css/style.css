@@ -1,0 +1,13 @@
+body{
+    background-image:url('/background.gif');
+    background-repeat: no-repeat;
+    background-size:cover;
+    }
+div.busqueda{
+    position: absolute;
+    z-index: 4; right: 52px;
+}
+#busqueda-color{
+    background-color: #ffffff;
+}    
+    
