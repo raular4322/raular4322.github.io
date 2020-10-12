@@ -16,6 +16,10 @@ main {
   padding-left: 24px;
 }
 
+.foto-card {
+  max-height: 250px;
+}
+
 .informacion-card {
   font-size: 24px;
 }
