@@ -1,0 +1,32 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+.presentacion-card {
+  border-radius: 0 0 2px 2px ;
+  padding-top: 5px;
+  padding-bottom: 24px;
+  padding-right: 24px;
+  padding-left: 24px;
+}
+
+.informacion-card {
+  font-size: 24px;
+}
+
+.titulo {
+  color: #26a69a;
+  font-weight: 300;
+}
+
+.page-footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
