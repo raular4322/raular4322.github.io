@@ -25,6 +25,11 @@ main {
   font-weight: 300;
 }
 
+.subtitulo {
+  color: #26a69a;
+  font-size: 20px;
+}
+
 .habilidad {
   padding-top: 5px;
   padding-bottom: 24px;
