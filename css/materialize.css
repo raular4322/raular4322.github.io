@@ -39,3 +39,8 @@ main {
 .texto-footer {
   color: white;
 }
+
+.lista-footer {
+  margin-top: 30%;
+  list-style-type: none;
+}
