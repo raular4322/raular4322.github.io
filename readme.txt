@@ -1,1 +1,0 @@
-https://color.adobe.com/es/create/color-wheel/?base=2&rule=Shades&selected=1&name=Mi%20tema%20de%20Color&mode=rgb&rgbvalues=0.0010000000000000009,0.0010000000000000009,0.0010000000000000009,0.5,0.5,0.5,1,1,1,0.25,0.25,0.25,1,1,1&swatchOrder=0,1,2,3,4
