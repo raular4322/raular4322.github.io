@@ -41,6 +41,7 @@ main {
   padding-left: 5px;
   background-color: #26a69a;
   color: white;
+  display: inline-block;
 }
 
 .color-footer {
