@@ -49,14 +49,21 @@ main {
 }
 
 .texto-footer {
+  margin-top: 0;
   color: white;
 }
 
 .lista-footer {
-  margin-top: 30%;
   list-style-type: none;
 }
 
 .color-imagen {
   background-color: #26a69a;
+}
+
+.row {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0%;
+  margin-top: 0%;
 }
